@@ -9,15 +9,23 @@
 <body>
     <h1>Register to Xenol</h1>
     <form action="/register" method="post">
-        <label for="username">Username</label>
-        <input type="text" name="text" id="username"><br><br>
+        <label for="username">Company name</label>
+        <input type="text" name="text" id="companyname"><br><br>
         <label for="email">Email</label>
         <input type="email" name="email" id="email"><br><br>
         <label for="password">Password</label>
         <input type="password" name="password" id="password"><br><br>
         <label for="password">Confirm Password</label>
-        <input type="password" name="password" id="confirm-password"><br><br>
-        <input type="submit" value="Log in">
+        <input type="password" name="confirm password" id="confirm-password"><br><br>
+        <label for="domain">Domain Name</label>
+        <input type="text" name="domain" id="domain"><br><br>
+        <label for="num-of-emoloyees">Number of Employees</label>
+        <input type="radio" name="num-of-employees" id="below-5">
+        <input type="radio" name="num-of-employees" id="5-20">
+        <input type="radio" name="num-of-employees" id="above-50">
+        <label for="description">Description</label>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Register">
     </form>
 </body>
 </html>
